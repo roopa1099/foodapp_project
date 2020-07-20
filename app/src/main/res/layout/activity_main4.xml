@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1E6C7"
+    tools:context=".Main4Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="452dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="#1CEA67"
+            android:text="ORDERS"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FF5722" />
+
+        <TextView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="60dp"
+            android:hint="Items Selected"
+            android:textColor="#C12D22"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/priceView"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginBottom="60dp"
+            android:hint="Total Price"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#FF2550ED"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F44336"
+            android:text="Re-order" />
+
+        <Button
+            android:id="@+id/cnf"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:text="Confirm and Proceed" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

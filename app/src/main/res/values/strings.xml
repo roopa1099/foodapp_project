@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">fooods app</string>
+    <string name="map_key" translatable="false">
+        AIzaSyA6dk7tIvQDAsiqbBCOyWDW7R0rOFcVaGQ
+    </string>
+</resources>
