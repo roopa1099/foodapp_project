@@ -13,7 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main12Activity"></activity>
+        <activity android:name=".NewRestFood"></activity>
+        <activity android:name=".EditRest" />
+        <activity android:name=".AdminMenu" />
+        <activity android:name=".NewRest" />
+        <activity android:name=".Admin1" />
+        <activity android:name=".ADMIN" />
+        <activity android:name=".Main12Activity" />
         <activity android:name=".Main11Activity" />
         <activity android:name=".Main10Activity" />
         <activity android:name=".Main9Activity" />

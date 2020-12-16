@@ -16,12 +16,14 @@ import android.text.style.StyleSpan;
 import android.view.View;
 import android.widget.Button;
 import android.app.AlertDialog;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import android.content.DialogInterface;
 public class MainActivity extends AppCompatActivity {
     Button signupButton,loginButton;
+    ImageButton admin_log;
     AlertDialog.Builder builder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +32,22 @@ public class MainActivity extends AppCompatActivity {
 
         signupButton = (Button) findViewById(R.id.button);
         loginButton=(Button) findViewById(R.id.button1);
+        admin_log=(ImageButton) findViewById(R.id.imageButton);
         builder = new AlertDialog.Builder(this);
-        TextView textView=findViewById(R.id.textv);
-        String str="KHAANA KHAZANA";
-        SpannableString ss=new SpannableString(str);
-        StyleSpan bolds=new StyleSpan(Typeface.BOLD);
-        ss.setSpan(bolds,0,14, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        textView.setText(ss);
+
+
+        admin_log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent obj=new Intent(MainActivity.this,
+                        ADMIN.class);
+
+                startActivity(obj);
+            }
+        });
+
+
+
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

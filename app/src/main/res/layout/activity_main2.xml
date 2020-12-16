@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FEF9E7"
+    android:background="@drawable/register_pg"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -33,58 +33,62 @@
 
     <Button
         android:id="@+id/button_rgs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="115dp"
+        android:layout_height="37dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="148dp"
-        android:layout_marginBottom="281dp"
-        android:text="Register" />
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="102dp"
+        android:backgroundTint="#002B4985"
+        android:text="Register"
+        android:textColor="#FFF4F1F1" />
 
     <Button
         android:id="@+id/button_lgn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="279dp"
-        android:text="login" />
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="37dp"
+        android:backgroundTint="#002B4985"
+        android:text="login"
+        android:textColor="#FFF4F1F1" />
 
     <EditText
         android:id="@+id/editText_npsw"
-        android:layout_width="269dp"
+        android:layout_width="306dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="71dp"
-        android:layout_marginBottom="395dp"
-        android:hint="password"
-        android:inputType="textPassword" />
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="255dp"
+        android:text="PASSWORD:" />
 
     <EditText
         android:id="@+id/editText_usr"
-        android:layout_width="297dp"
+        android:layout_width="301dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="64dp"
-        android:layout_marginBottom="465dp"
-        android:hint="username"
-        android:inputType="text" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginBottom="332dp"
+        android:inputType="text"
+        android:text="USERNAME:" />
 
     <EditText
         android:id="@+id/editText_phn"
-        android:layout_width="304dp"
+        android:layout_width="296dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="62dp"
-        android:layout_marginBottom="544dp"
-        android:hint="Phone"
-        android:inputType="phone" />
+        android:layout_marginBottom="418dp"
+        android:inputType="phone"
+        android:text="MOBILE:" />
 
     <EditText
         android:id="@+id/editText_name"
@@ -93,8 +97,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="66dp"
-        android:layout_marginBottom="617dp"
-        android:hint="Name"
-        android:inputType="textPersonName" />
+        android:layout_marginStart="61dp"
+        android:layout_marginBottom="499dp"
+        android:inputType="textPersonName"
+        android:text="NAME:" />
 </RelativeLayout>

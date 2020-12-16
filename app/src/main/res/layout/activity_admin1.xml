@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin1_b"
+    android:foregroundTint="#FFFFFF"
+    tools:context=".Admin1">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="113dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/cir_button"
+        android:fontFamily="sans-serif-black"
+        android:text="Add New Restaurant Name"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="385dp"
+        android:background="@drawable/cir_button"
+        android:fontFamily="sans-serif-black"
+        android:text="Edit Existing Restaurant"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="269dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#9FBF63"
+        android:text="Logout" />
+</RelativeLayout>
